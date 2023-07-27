@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="tip_app">
+            
+            <h1>TIP APP</h1>
+            
+            <div class="input_box">
+                <lable for="head_count">Head Count
+                    <input id="head_count" type="number" min="0"/>
+                </lable>
+            </div>
+            
+            <div class="input_box">
+                <lable for="bill_amount">Bill Amount
+                    <input id="bill_amount" type="number" min="0"/>
+                </lable>
+            </div>
+            
+            <div class="input_box">
+                <lable for="service_type">Service Type
+                    <select id="service_type">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value=".1">Poor (10%)</option>
+                        <option value=".15">Average (15%)</option>
+                        <option value=".2">Good (20%)</option>
+                        <option value=".25">Great (25%)</option>
+                    </select>
+                </lable>
+            </div>
+            
+            <button id="tip_calc">Get Tip Amount</button>
+            
+            <h2 id="tip_amount">🧑‍⚖️</h2>
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
