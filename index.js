@@ -13,5 +13,5 @@ TipCalc.addEventListener('click', ()=> {
     
 function tipCalculator(heads, bill, percentage) {
     let tip = Math.round((bill * percentage)/heads)
-    tipAmount.textContent = `Rs. ${tip} /=`
+    tipAmount.textContent = `Total Tip - Rs. ${tip} /=  👉👉👉 per 🧑 tip - Rs. ${tip/heads} /=`
 }
